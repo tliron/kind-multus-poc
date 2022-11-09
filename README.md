@@ -49,7 +49,7 @@ Switched to context "kind-edge1".
        valid_lft forever preferred_lft forever
 ```
 
-The secondary network created by Multus is one the third interface. Our address for it is
+The secondary network created by Multus is on the third interface. Our address for it is
 10.1.1.84.
 
 Now let's try to reach this address from the second cluster:
