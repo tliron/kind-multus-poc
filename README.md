@@ -70,8 +70,8 @@ How It Works
 ------------
 
 We're relying on the fact that all KIND clusters on the same machine by default use
-the same Podman/Docker network, which is by default a bridge. That means that they
-all packets are already shared at L2. The challenge is getting L3 routing set up.
+the same Podman/Docker network, which is by default a bridge. That means that all 
+packets are already shared at L2. The challenge is getting L3 routing set up.
 
 We do this in two steps:
 
